@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+ 
+     <input>
+         <net-file value = "../data/__case_2.net.xml"/>
+         <taz-file value = "../data/case_2.tazs.add.xml"/>
+         <od-groups-file value = "../data/case_2.odgroups.xml"/>
+         <od-matrix-file value = "../data/__od-matrix.dat"/>
+         <detector-files value = "../data/__detectors.det.xml"/>
+         <measure-files value = "../data/__detector_flows.dat"/>
+     </input>
+ 
+     <output>
+         <routes-output value="../data/__dfroutes.rou.xml"/>
+         <emitters-output value="../data/__emitters.add.xml"/>
+         <induction-loops-output value="../data/__induction_loops.add.xml"/>
+         <!--routes-for-all value="false"/-->
+         <!--detector-output value= "../data/__detectors.out.xml"/-->
+         <detectors-poi-output value="../data/__detectors.poi.xml"/>
+         <emitters-poi-output value="../data/__emitters.poi.xml"/>
+         <!--max-search-depth value="5"/-->
+         <validation-output value="../data/__validation.out.xml"/>
+         <!--validation-output.add-sources value="true"/-->
+     </output>
+ 
+     <defaults>
+         <departpos value="10"/>
+     </defaults>
+ 
+     <processing>
+         <keep-longer-routes value = "false"/>
+         <include-unused-routes value = "false"/>
+         <remove-empty-detectors value = "true"/>
+ 		 <k-shortest-routes value = "8"/>
+         <k-shortest-selected value = "5"/>
+         <!--short-det-routes-rate value = "0.1"/-->
+         <!--long-det-routes-rate value = "0.01"/-->
+         <time-to-teleport value = "20"/>
+		 <dynamic-trigger value = "0.7"/>
+     </processing>
+ 
+     <time>
+         <begin value = "54000"/>
+         <end value = "55900"/>
+     </time>
+ 
+     <report>
+         <verbose value="true"/>
+         <xml-validation value="auto"/>
+         <print-absolute-flows value="true"/>
+         <report-empty-detectors value="true"/>
+     </report>
+ 
+ 	<gaparameters>
+ 	    <genetic-algorithm value = "Simple"/>
+ 	    <replacement-scheme value = "Worst"/>
+ 	    <scaling-scheme value = "Sharing"/>
+		<linear-scaling-multiplier value = "1.5"/>
+		<sigma-truncation-multiplier value = "1.5"/>
+		<power-scaling-factor value = "3"/>
+ 	    <sharing-cutoff value = "0.5"/>
+ 	    <sharing-alpha value = "1.0"/>
+ 	    <selection-scheme value = "Tournament"/>
+ 	    <genome-crossover value = "PartialMatchd"/>
+ 	    <genome-mutator value = "Flip"/>
+ 	    <termination-function value = "UponGeneration"/>
+ 		<crossover-probability value = "0.9"/>
+ 		<mutation-probability value = "0.1"/>		
+ 	    <convergence-percentage value = "0.995"/>
+ 		<number-of-generations value = "500"/>
+ 		<population-size value = "30"/>
+ 		<number-of-populations value = "5"/>
+ 		<score-freq value = "1"/>
+ 		<flush-freq value = "10"/>
+ 		<score-file value = "/Users/ctomas/RTGAR/results/gar_statistics.dat"/>
+ 		<record-diversity value = "true"/>
+ 		<select-scores value = "GAStatistics::Mean | GAStatistics::Maximum | GAStatistics::Minimum | GAStatistics::Deviation | GAStatistics::Diversity"/>
+     </gaparameters>
+ 
+ </configuration>
+ 

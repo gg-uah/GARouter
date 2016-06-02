@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <node id="n01" x="+000.0" y="+200.0" type="dead_end"          shape=""/>
+    <node id="n02" x="+000.0" y="+100.0" type="dead_end"          shape=""/>
+    <node id="n03" x="+000.0" y="+000.0" type="dead_end"          shape=""/>
+	<node id="n04" x="+100.0" y="+100.0" type="priority"          shape=""/>
+   	<node id="n05" x="+400.0" y="+100.0" type="priority"          shape=""/>
+    <node id="n06" x="+500.0" y="+200.0" type="dead_end" 		  shape=""/>
+    <node id="n07" x="+500.0" y="+100.0" type="dead_end"          shape=""/>
+    <node id="n08" x="+500.0" y="+000.0" type="dead_end" 		  shape=""/>
+</nodes>

@@ -1,0 +1,18 @@
+$VMR
+* Vehicle type
+pass
+* From-Time  To-Time
+15.00        15.15
+*
+* Factor
+1.00
+*
+* Number of districts
+2
+*
+* District names
+        TAZ1        TAZ2
+* Amount of vehicles that leave the district TAZ1
+           0          25
+* Amount of vehicles that leave the district TAZ2
+           0           0

@@ -1,0 +1,24 @@
+2015-09-23 02:20:43,968   testgar   INFO: ................ Generate the network (netconvert) ...
+2015-09-23 02:20:43,968   testgar   INFO: 	Node file: /Users/ctomas/RTGAR/python/testgar/src/../data/case_2.net.nod.xml
+2015-09-23 02:20:43,968   testgar   INFO: 	Edge file: /Users/ctomas/RTGAR/python/testgar/src/../data/case_2.net.edg.xml
+2015-09-23 02:20:43,968   testgar   INFO: 	Type file: /Users/ctomas/RTGAR/python/testgar/src/../data/case_2.net.typ.xml
+2015-09-23 02:20:43,968   testgar   INFO: 	Conn file: /Users/ctomas/RTGAR/python/testgar/src/../data/case_2.net.con.xml
+2015-09-23 02:20:43,968   testgar   INFO: 	Net file : /Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.net.xml
+2015-09-23 02:20:44,665   testgar   INFO: Success: netconvert finished with status [0]
+2015-09-23 02:20:44,666   testgar   INFO: ................ Generate the O/D trips ...
+2015-09-23 02:20:44,666   testgar   INFO: 	Net file   : /Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.net.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	Taz file   : /Users/ctomas/RTGAR/python/testgar/src/../data/case_1.tazs.add.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	Nettaz file: /Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.nettaz.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	Rtyp file  : /Users/ctomas/RTGAR/python/testgar/src/../data/case_1.vtyp.rou.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	O/D file   : /Users/ctomas/RTGAR/python/testgar/src/../data/__od-matrix.dat
+2015-09-23 02:20:44,666   testgar   INFO: 	Trip file  : /Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	Route file : /Users/ctomas/RTGAR/python/testgar/src/../data/__routes.rou.xml
+2015-09-23 02:20:44,666   testgar   INFO: 	O/D groups : case_1.odgroups.xml
+2015-09-23 02:20:44,667   testgar   INFO: 	Begin      : 15.00
+2015-09-23 02:20:44,667   testgar   INFO: 	End        : 15.30
+2015-09-23 02:20:44,667   testgar   INFO: 	VehType    : pass
+2015-09-23 02:20:44,667   testgar   INFO: 	Mean Num   : 100
+2015-09-23 02:20:44,667   testgar   INFO: 	Std Dev    : 0.0
+2015-09-23 02:20:44,668   testgar   INFO: Options: {'odfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/__od-matrix.dat', 'begin': '15.00', 'vtype': 'pass', 'end': '15.30', 'rebuild': True, 'nettazfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.nettaz.xml', 'routefile': '/Users/ctomas/RTGAR/python/testgar/src/../data/__routes.rou.xml', 'meannum': 100, 'tazfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/case_1.tazs.add.xml', 'stddev': 0.0, 'odgroups': 'case_1.odgroups.xml', 'rtypfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/case_1.vtyp.rou.xml', 'netfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.net.xml', 'tripfile': '/Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml'}
+2015-09-23 02:20:44,668   testgar   INFO: Get TAZs from file
+2015-09-23 02:20:44,668   testgar CRITICAL: Missing TAZ file '/Users/ctomas/RTGAR/python/testgar/src/../data/case_1.tazs.add.xml'

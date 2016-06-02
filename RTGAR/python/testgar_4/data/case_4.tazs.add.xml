@@ -1,0 +1,45 @@
+<tazs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/taz_file.xsd">
+    <taz id="TAZ1">
+        <tazSource id="we05to06" weight="0.50"/>
+        <tazSink   id="ew06to05" weight="0.50"/>
+
+        <tazSource id="we11to12" weight="0.50"/>
+        <tazSink   id="ew12to11" weight="0.50"/>
+
+        <tazSource id="we17to18" weight="0.50"/>
+        <tazSink   id="ew18to17" weight="0.50"/>
+    </taz>
+
+    <taz id="TAZ2">
+        <tazSource id="sn24to18" weight="0.50"/>
+        <tazSink   id="ns18to24" weight="0.50"/>
+
+        <tazSource id="sn25to19" weight="0.50"/>
+        <tazSink   id="ns19to25" weight="0.50"/>
+
+        <tazSource id="sn26to20" weight="0.50"/>
+        <tazSink   id="ns20to26" weight="0.50"/>
+    </taz>
+
+    <taz id="TAZ3">
+        <tazSource id="ew21to20" weight="0.50"/>
+        <tazSink   id="we20to21" weight="0.50"/>
+
+        <tazSource id="ew15to14" weight="0.50"/>
+        <tazSink   id="we14to15" weight="0.50"/>
+
+        <tazSource id="ew09to08" weight="0.50"/>
+        <tazSink   id="we08to09" weight="0.50"/>
+    </taz>
+
+    <taz id="TAZ4">
+        <tazSource id="ns03to08" weight="0.50"/>
+        <tazSink   id="sn08to03" weight="0.50"/>
+
+        <tazSource id="ns02to07" weight="0.50"/>
+        <tazSink   id="sn07to02" weight="0.50"/>
+
+        <tazSource id="ns01to06" weight="0.50"/>
+        <tazSink   id="sn06to01" weight="0.50"/>
+    </taz>
+</tazs>

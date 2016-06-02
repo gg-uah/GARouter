@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 23:46:50 2015 by SUMO garouter Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/garouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/__case_1.net.xml"/>
+        <detector-files value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detectors.det.xml"/>
+        <measure-files value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detector_flows.dat"/>
+        <od-matrix-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/__od-matrix.dat"/>
+        <taz-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/case_1.tazs.add.xml"/>
+        <od-groups-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/case_1.odgroups.xml"/>
+    </input>
+
+    <output>
+        <routes-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__dfroutes.rou.xml"/>
+        <detectors-poi-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detectors.poi.xml"/>
+        <emitters-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__emitters.add.xml"/>
+        <induction-loops-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__induction_loops.add.xml"/>
+        <emitters-poi-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__emitters.poi.xml"/>
+        <validation-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__validation.out.xml"/>
+    </output>
+
+    <processing>
+        <k-shortest-routes value="8"/>
+        <k-shortest-selected value="5"/>
+        <keep-longer-routes value="false"/>
+        <time-to-teleport value="20"/>
+        <dynamic-trigger value="0.1"/>
+        <include-unused-routes value="false"/>
+        <remove-empty-detectors value="true"/>
+    </processing>
+
+    <gaparameters>
+        <genetic-algorithm value="Simple"/>
+        <number-of-generations value="500"/>
+        <population-size value="30"/>
+        <number-of-populations value="5"/>
+        <convergence-percentage value="0.995"/>
+        <crossover-probability value="0.9"/>
+        <mutation-probability value="0.1"/>
+        <score-freq value="1"/>
+        <flush-freq value="10"/>
+        <score-file value="/Users/ctomas/RTGAR/results/gar_statistics.dat"/>
+        <select-scores value="GAStatistics::Mean | GAStatistics::Maximum | GAStatistics::Minimum | GAStatistics::Deviation | GAStatistics::Diversity"/>
+        <record-diversity value="true"/>
+        <genome-mutator value="Flip"/>
+        <genome-crossover value="PartialMatch"/>
+        <scaling-scheme value="Sharing"/>
+        <power-scaling-factor value="3"/>
+        <sharing-cutoff value="0.5"/>
+        <sharing-alpha value="1"/>
+        <selection-scheme value="Tournament"/>
+        <termination-function value="UponGeneration"/>
+        <replacement-scheme value="Worst"/>
+    </gaparameters>
+
+    <defaults>
+        <departpos value="10"/>
+    </defaults>
+
+    <time>
+        <begin value="54000"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <xml-validation value="auto"/>
+        <report-empty-detectors value="true"/>
+        <print-absolute-flows value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<pois>
+    <poi id="det_01to02_0" type="source_detector_position" color="green" lane="01to02_0" pos="47.62"/>
+    <poi id="det_02to03_0" type="between_detector_position" color="blue" lane="02to03_0" pos="195.25"/>
+    <poi id="det_02to05_0" type="between_detector_position" color="blue" lane="02to05_0" pos="47.65"/>
+    <poi id="det_02to06_0" type="between_detector_position" color="blue" lane="02to06_0" pos="47.65"/>
+    <poi id="det_03to04_0" type="sink_detector_position" color="red" lane="03to04_0" pos="47.62"/>
+    <poi id="det_05to07_0" type="between_detector_position" color="blue" lane="05to07_0" pos="196.75"/>
+    <poi id="det_06to08_0" type="between_detector_position" color="blue" lane="06to08_0" pos="200.05"/>
+    <poi id="det_07to03_0" type="between_detector_position" color="blue" lane="07to03_0" pos="47.65"/>
+    <poi id="det_08to03_0" type="between_detector_position" color="blue" lane="08to03_0" pos="47.65"/>
+</pois>

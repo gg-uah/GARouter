@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 23:45:34 2015 by SUMO duarouter Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__case_1.net.xml"/>
+        <additional-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/case_1.vtyp.rou.xml"/>
+        <trip-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__routes.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+        <routing-algorithm value="astar"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pass" length="4.00" minGap="5.00" maxSpeed="120.00" speedFactor="1.10" speedDev="0.10" vClass="passenger"/>
+    <vehicle id="0" type="pass" depart="54018.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="1" type="pass" depart="54054.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="2" type="pass" depart="54090.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="3" type="pass" depart="54126.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="4" type="pass" depart="54162.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="5" type="pass" depart="54198.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="6" type="pass" depart="54234.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="7" type="pass" depart="54270.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="8" type="pass" depart="54306.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="9" type="pass" depart="54342.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="10" type="pass" depart="54378.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="11" type="pass" depart="54414.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="12" type="pass" depart="54450.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="13" type="pass" depart="54486.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="14" type="pass" depart="54522.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="15" type="pass" depart="54558.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="16" type="pass" depart="54594.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="17" type="pass" depart="54630.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="18" type="pass" depart="54666.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="19" type="pass" depart="54702.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="20" type="pass" depart="54738.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="21" type="pass" depart="54774.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="22" type="pass" depart="54810.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="23" type="pass" depart="54846.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+    <vehicle id="24" type="pass" depart="54882.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <route edges="01to02 02to05 05to07 07to03 03to04"/>
+    </vehicle>
+</routes>

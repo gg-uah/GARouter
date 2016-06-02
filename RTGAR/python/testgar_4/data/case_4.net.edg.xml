@@ -1,0 +1,110 @@
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!--Vertical Edges (North-South/South-North)-->
+    <edge id="ns01to06" type="road_a" from="n01" to="n06" />
+    <edge id="sn06to01" type="road_a" from="n06" to="n01" />
+    <edge id="ns06to12" type="road_b" from="n06" to="n12" />
+    <edge id="sn12to06" type="road_b" from="n12" to="n06" />
+    <edge id="ns12to18" type="road_b" from="n12" to="n18" />
+    <edge id="sn18to12" type="road_b" from="n18" to="n12" />
+    <edge id="ns18to24" type="road_b" from="n18" to="n24" />
+    <edge id="sn24to18" type="road_b" from="n24" to="n18" />
+
+    <!--edge id="ns24to29" type="road_b" from="n24" to="n29" />
+    <edge id="sn29to24" type="road_b" from="n29" to="n24" /-->
+
+
+    <edge id="ns02to07" type="road_a" from="n02" to="n07" />
+    <edge id="sn07to02" type="road_a" from="n07" to="n02" />
+    <edge id="ns07to13" type="road_b" from="n07" to="n13" />
+    <edge id="sn13to07" type="road_b" from="n13" to="n07" />
+    <edge id="ns13to19" type="road_b" from="n13" to="n19" />
+    <edge id="sn19to13" type="road_b" from="n19" to="n13" />
+    <edge id="ns19to25" type="road_b" from="n19" to="n25" />
+    <edge id="sn25to19" type="road_b" from="n25" to="n19" />
+
+    <!--edge id="ns25to30" type="road_b" from="n25" to="n30" />
+    <edge id="sn30to25" type="road_b" from="n30" to="n25" /-->
+
+
+    <edge id="ns03to08" type="road_a" from="n03" to="n08" />
+    <edge id="sn08to03" type="road_a" from="n08" to="n03" />
+    <edge id="ns08to14" type="road_b" from="n08" to="n14" />
+    <edge id="sn14to08" type="road_b" from="n14" to="n08" />
+    <edge id="ns14to20" type="road_b" from="n14" to="n20" />
+    <edge id="sn20to14" type="road_b" from="n20" to="n14" />
+    <edge id="ns20to26" type="road_b" from="n20" to="n26" />
+    <edge id="sn26to20" type="road_b" from="n26" to="n20" />
+
+    <!--edge id="ns26to31" type="road_b" from="n26" to="n31" />
+    <edge id="sn31to26" type="road_b" from="n31" to="n26" /-->
+
+
+    <!--edge id="ns04to09" type="road_a" from="n04" to="n09" />
+    <edge id="sn09to04" type="road_a" from="n09" to="n04" />
+    <edge id="ns09to15" type="road_b" from="n09" to="n15" />
+    <edge id="sn15to09" type="road_b" from="n15" to="n09" />
+    <edge id="ns15to21" type="road_b" from="n15" to="n21" />
+    <edge id="sn21to15" type="road_b" from="n21" to="n15" />
+    <edge id="ns21to27" type="road_b" from="n21" to="n27" />
+    <edge id="sn27to21" type="road_b" from="n27" to="n21" />
+
+    <edge id="ns27to32" type="road_b" from="n27" to="n32" />
+    <edge id="sn32to27" type="road_b" from="n32" to="n27" /-->
+
+
+
+    <!--Horizontal Edges (West-East/East-West)-->
+    <edge id="we05to06" type="road_a" from="n05" to="n06" />
+    <edge id="ew06to05" type="road_a" from="n06" to="n05" />
+    <edge id="we06to07" type="road_c" from="n06" to="n07" />
+    <edge id="ew07to06" type="road_c" from="n07" to="n06" />
+    <edge id="we07to08" type="road_c" from="n07" to="n08" />
+    <edge id="ew08to07" type="road_c" from="n08" to="n07" />
+    <edge id="we08to09" type="road_c" from="n08" to="n09" />
+    <edge id="ew09to08" type="road_c" from="n09" to="n08" />
+
+    <!--edge id="we09to10" type="road_c" from="n09" to="n10" />
+    <edge id="ew10to09" type="road_c" from="n10" to="n09" /-->
+
+
+    <edge id="we11to12" type="road_a" from="n11" to="n12" />
+    <edge id="ew12to11" type="road_a" from="n12" to="n11" />
+    <edge id="we12to13" type="road_c" from="n12" to="n13" />
+    <edge id="ew13to12" type="road_c" from="n13" to="n12" />
+    <edge id="we13to14" type="road_c" from="n13" to="n14" />
+    <edge id="ew14to13" type="road_c" from="n14" to="n13" />
+    <edge id="we14to15" type="road_c" from="n14" to="n15" />
+    <edge id="ew15to14" type="road_c" from="n15" to="n14" />
+
+    <!--edge id="we15to16" type="road_c" from="n15" to="n16" />
+    <edge id="ew16to15" type="road_c" from="n16" to="n15" /-->
+
+
+    <edge id="we17to18" type="road_a" from="n17" to="n18" />
+    <edge id="ew18to17" type="road_a" from="n18" to="n17" />
+    <edge id="we18to19" type="road_c" from="n18" to="n19" />
+    <edge id="ew19to18" type="road_c" from="n19" to="n18" />
+    <edge id="we19to20" type="road_c" from="n19" to="n20" />
+    <edge id="ew20to19" type="road_c" from="n20" to="n19" />
+    <edge id="we20to21" type="road_c" from="n20" to="n21" />
+    <edge id="ew21to20" type="road_c" from="n21" to="n20" />
+
+    <!--edge id="we21to22" type="road_c" from="n21" to="n22" />
+    <edge id="ew22to21" type="road_c" from="n22" to="n21" /-->
+
+
+    <!--edge id="we23to24" type="road_a" from="n23" to="n24" />
+    <edge id="ew24to23" type="road_a" from="n24" to="n23" />
+    <edge id="we24to25" type="road_c" from="n24" to="n25" />
+    <edge id="ew25to24" type="road_c" from="n25" to="n24" />
+    <edge id="we25to26" type="road_c" from="n25" to="n26" />
+    <edge id="ew26to25" type="road_c" from="n26" to="n25" />
+    <edge id="we26to27" type="road_c" from="n26" to="n27" />
+    <edge id="ew27to26" type="road_c" from="n27" to="n26" /-->
+
+    <!--edge id="we27to28" type="road_c" from="n27" to="n28" />
+    <edge id="ew28to27" type="road_c" from="n28" to="n27" /-->
+
+ 
+    <!--roundabout edges="ns29to30 sn30to29 ew30to19 we19to30 ns30to21 sn21to30 ew31to30 we30to31"/-->
+</edges>

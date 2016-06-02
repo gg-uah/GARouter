@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../data/__case_1.net.xml"/>
+        <!--route-files value="../data/__trips.trip.xml"/-->
+		<!--additional-files value="../data/__induction_loops.add.xml ../data/case_1.vtyp.rou.xml"/-->
+        <!--route-files value="../data/myroutes.rou.xml"/-->
+        <additional-files value="../data/myroutes.rou.xml ../data/__induction_loops.add.xml"/>
+
+
+    </input>
+
+    <time>
+        <begin value="54000"/>
+        <!--end value="54300"/-->
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="./case_1.settings.xml"/>
+    </gui_only>
+
+</configuration>

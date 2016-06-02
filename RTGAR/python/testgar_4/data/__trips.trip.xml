@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 19:38:42 2015 by SUMO od2trips Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__case_4.nettaz.xml"/>
+        <od-matrix-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/__od-matrix.dat"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml"/>
+    </output>
+
+    <time>
+        <begin value="54000"/>
+        <end value="54300"/>
+    </time>
+
+    <processing>
+        <spread.uniform value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="54075.00" from="we11to12" to="ns19to25" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="10" depart="54075.00" from="sn26to20" to="sn07to02" type="pass" fromTaz="TAZ2" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="12" depart="54075.00" from="ew15to14" to="ew06to05" type="pass" fromTaz="TAZ3" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="14" depart="54075.00" from="ew15to14" to="ns19to25" type="pass" fromTaz="TAZ3" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="16" depart="54075.00" from="ew09to08" to="sn06to01" type="pass" fromTaz="TAZ3" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="18" depart="54075.00" from="ns01to06" to="ew12to11" type="pass" fromTaz="TAZ4" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="2" depart="54075.00" from="we17to18" to="we14to15" type="pass" fromTaz="TAZ1" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+    <trip id="20" depart="54075.00" from="ns02to07" to="ns18to24" type="pass" fromTaz="TAZ4" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="22" depart="54075.00" from="ns02to07" to="we20to21" type="pass" fromTaz="TAZ4" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+    <trip id="4" depart="54075.00" from="we05to06" to="sn08to03" type="pass" fromTaz="TAZ1" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="6" depart="54075.00" from="sn24to18" to="ew06to05" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="8" depart="54075.00" from="sn24to18" to="we20to21" type="pass" fromTaz="TAZ2" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+    <trip id="1" depart="54225.00" from="we11to12" to="ns19to25" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="11" depart="54225.00" from="sn25to19" to="sn07to02" type="pass" fromTaz="TAZ2" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="13" depart="54225.00" from="ew21to20" to="ew06to05" type="pass" fromTaz="TAZ3" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="15" depart="54225.00" from="ew09to08" to="ns20to26" type="pass" fromTaz="TAZ3" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="17" depart="54225.00" from="ew15to14" to="sn06to01" type="pass" fromTaz="TAZ3" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="19" depart="54225.00" from="ns02to07" to="ew18to17" type="pass" fromTaz="TAZ4" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="21" depart="54225.00" from="ns01to06" to="ns18to24" type="pass" fromTaz="TAZ4" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="23" depart="54225.00" from="ns03to08" to="we20to21" type="pass" fromTaz="TAZ4" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+    <trip id="3" depart="54225.00" from="we11to12" to="we08to09" type="pass" fromTaz="TAZ1" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+    <trip id="5" depart="54225.00" from="we11to12" to="sn07to02" type="pass" fromTaz="TAZ1" toTaz="TAZ4" departLane="free" departSpeed="max"/>
+    <trip id="7" depart="54225.00" from="sn25to19" to="ew12to11" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="9" depart="54225.00" from="sn25to19" to="we14to15" type="pass" fromTaz="TAZ2" toTaz="TAZ3" departLane="free" departSpeed="max"/>
+</routes>

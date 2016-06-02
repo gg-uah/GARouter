@@ -1,0 +1,27 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<vehicle id='emitter_0000' depart='54300' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0001' depart='54180' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0002' depart='54600' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0003' depart='54600' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0004' depart='54480' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0005' depart='54060' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0006' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0007' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0008' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0009' depart='54300' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0010' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0011' depart='54600' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0012' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0013' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0014' depart='54300' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0015' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0016' depart='54540' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0017' depart='54300' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0018' depart='54420' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0019' depart='54600' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+	<vehicle id='emitter_0020' depart='54180' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0021' depart='54060' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04'/>
+	<vehicle id='emitter_0022' depart='54600' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0023' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_2'/>
+	<vehicle id='emitter_0024' depart='54000' departLane='0' departPos='47.625' departSpeed='17.9987' route='01to02_to_03to04_1'/>
+</additional>

@@ -1,0 +1,21 @@
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="01to02" type="road_c" from="n01" to="n02" />
+    <edge id="02to03" type="road_a" from="n02" to="n03" />
+    <edge id="03to04" type="road_c" from="n03" to="n04" />
+    <edge id="02to05" type="road_c" from="n02" to="n05" />
+    <edge id="05to07" type="road_c" from="n05" to="n07" />
+    <edge id="07to03" type="road_c" from="n07" to="n03" />
+    <edge id="02to06" type="road_a" from="n02" to="n06" />
+    <edge id="06to08" type="road_a" from="n06" to="n08" />
+    <edge id="08to03" type="road_a" from="n08" to="n03" />
+
+    <!--edge id="04to03" type="road_c" from="n04" to="n03" />
+    <edge id="03to02" type="road_a" from="n03" to="n02" />
+    <edge id="02to01" type="road_c" from="n02" to="n01" />
+    <edge id="03to07" type="road_c" from="n03" to="n07" />
+    <edge id="07to05" type="road_c" from="n07" to="n05" />
+    <edge id="05to02" type="road_c" from="n05" to="n02" />
+    <edge id="03to08" type="road_a" from="n03" to="n08" />
+    <edge id="08to06" type="road_a" from="n08" to="n06" />
+    <edge id="06to02" type="road_a" from="n06" to="n02" /-->
+</edges>

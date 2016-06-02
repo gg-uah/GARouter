@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 19:38:42 2015 by SUMO duarouter Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__case_4.net.xml"/>
+        <additional-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/case_4.vtyp.rou.xml"/>
+        <trip-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__routes.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+        <routing-algorithm value="astar"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pass" length="4.00" minGap="5.00" maxSpeed="120.00" speedFactor="1.10" speedDev="0.10" vClass="passenger"/>
+    <vehicle id="0" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="16.28" probability="1.00000000" edges="we11to12 we12to13 ns13to19 ns19to25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="10" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="20.01" probability="1.00000000" edges="sn26to20 sn20to14 ew14to13 sn13to07 sn07to02"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="12" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="17.52" probability="1.00000000" edges="ew15to14 sn14to08 ew08to07 ew07to06 ew06to05"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="14" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="12.84" probability="1.00000000" edges="ew15to14 ns14to20 ew20to19 ns19to25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="16" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="13.79" probability="1.00000000" edges="ew09to08 ew08to07 ew07to06 sn06to01"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="18" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="15.92" probability="1.00000000" edges="ns01to06 ns06to12 ew12to11"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="17.52" probability="1.00000000" edges="we17to18 we18to19 we19to20 sn20to14 we14to15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="20" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="20.01" probability="1.00000000" edges="ns02to07 ew07to06 ns06to12 ns12to18 ns18to24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="22" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="18.73" probability="1.00000000" edges="ns02to07 we07to08 ns08to14 ns14to20 we20to21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="17.23" probability="1.00000000" edges="we05to06 we06to07 we07to08 sn08to03"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="6" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="17.49" probability="1.00000000" edges="sn24to18 sn18to12 sn12to06 ew06to05"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="8" type="pass" depart="54075.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="11.63" probability="1.00000000" edges="sn24to18 we18to19 we19to20 we20to21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="16.28" probability="1.00000000" edges="we11to12 we12to13 ns13to19 ns19to25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="11" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="17.49" probability="1.00000000" edges="sn25to19 sn19to13 sn13to07 sn07to02"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="13" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="21.25" probability="1.00000000" edges="ew21to20 sn20to14 ew14to13 ew13to12 sn12to06 ew06to05"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="15" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="14.05" probability="1.00000000" edges="ew09to08 ns08to14 ns14to20 ns20to26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="17" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ3" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="17.52" probability="1.00000000" edges="ew15to14 sn14to08 ew08to07 ew07to06 sn06to01"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="19" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="22.17" probability="1.00000000" edges="ns02to07 ew07to06 ns06to12 ns12to18 ew18to17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="21" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ2">
+        <routeDistribution last="0">
+            <route cost="17.49" probability="1.00000000" edges="ns01to06 ns06to12 ns12to18 ns18to24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="23" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ4" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="16.21" probability="1.00000000" edges="ns03to08 ns08to14 ns14to20 we20to21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="17.52" probability="1.00000000" edges="we11to12 we12to13 we13to14 sn14to08 we08to09"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="5" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ1" toTaz="TAZ4">
+        <routeDistribution last="0">
+            <route cost="18.44" probability="1.00000000" edges="we11to12 we12to13 sn13to07 sn07to02"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="7" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ1">
+        <routeDistribution last="0">
+            <route cost="16.28" probability="1.00000000" edges="sn25to19 sn19to13 ew13to12 ew12to11"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="9" type="pass" depart="54225.00" departLane="free" departSpeed="max" fromTaz="TAZ2" toTaz="TAZ3">
+        <routeDistribution last="0">
+            <route cost="12.84" probability="1.00000000" edges="sn25to19 sn19to13 we13to14 we14to15"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

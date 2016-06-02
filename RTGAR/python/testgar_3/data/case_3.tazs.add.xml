@@ -1,0 +1,17 @@
+<tazs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/taz_file.xsd">
+    <taz id="TAZ1">
+        <tazSource id="02to04" weight="0.7"/>
+        <tazSource id="03to04" weight="0.3"/>
+        <tazSink   id="04to02" weight="0.4"/>
+        <tazSink   id="04to01" weight="0.3"/>
+        <tazSink   id="11to12" weight="0.3"/>
+    </taz>
+
+    <taz id="TAZ2">
+        <tazSource id="07to05" weight="0.7"/>
+        <tazSource id="06to05" weight="0.3"/>
+        <tazSink   id="05to07" weight="0.4"/>
+        <tazSink   id="05to08" weight="0.3"/>
+        <tazSink   id="09to10" weight="0.3"/>
+    </taz>
+</tazs>

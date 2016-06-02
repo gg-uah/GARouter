@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/types_file.xsd">
+    <type id="road_a" priority="1" numLanes="1" speed="28.33"/>
+    <type id="road_b" priority="2" numLanes="1" speed="43.88"/>
+    <type id="road_c" priority="3" numLanes="1" speed="65.00"/>
+</types>

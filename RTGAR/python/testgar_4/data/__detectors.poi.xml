@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 20:25:18 2015 by SUMO garouter Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/garouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/__case_4.net.xml"/>
+        <detector-files value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detectors.det.xml"/>
+        <measure-files value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detector_flows.dat"/>
+        <od-matrix-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/__od-matrix.dat"/>
+        <taz-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/case_4.tazs.add.xml"/>
+        <od-groups-file value="/Users/ctomas/RTGAR/python/testgar/config/../data/case_4.odgroups4.xml"/>
+    </input>
+
+    <output>
+        <routes-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__dfroutes.rou.xml"/>
+        <detectors-poi-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__detectors.poi.xml"/>
+        <emitters-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__emitters.add.xml"/>
+        <induction-loops-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__induction_loops.add.xml"/>
+        <emitters-poi-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__emitters.poi.xml"/>
+        <validation-output value="/Users/ctomas/RTGAR/python/testgar/config/../data/__validation.out.xml"/>
+    </output>
+
+    <processing>
+        <k-shortest-routes value="8"/>
+        <k-shortest-selected value="5"/>
+        <keep-longer-routes value="false"/>
+        <time-to-teleport value="20"/>
+        <dynamic-trigger value="0.7"/>
+        <include-unused-routes value="false"/>
+        <remove-empty-detectors value="true"/>
+    </processing>
+
+    <gaparameters>
+        <genetic-algorithm value="Deme"/>
+        <number-of-generations value="500"/>
+        <population-size value="50"/>
+        <number-of-populations value="9"/>
+        <convergence-percentage value="0.995"/>
+        <crossover-probability value="0.9"/>
+        <mutation-probability value="0.1"/>
+        <replacement-percentage value="1"/>
+        <score-freq value="10"/>
+        <flush-freq value="50"/>
+        <score-file value="/Users/ctomas/RTGAR/results/gar_statistics.dat"/>
+        <select-scores value="GAStatistics::Mean | GAStatistics::Maximum | GAStatistics::Minimum | GAStatistics::Deviation | GAStatistics::Diversity"/>
+        <record-diversity value="true"/>
+        <genome-mutator value="Flip"/>
+        <genome-crossover value="Uniform"/>
+        <scaling-scheme value="Sharing"/>
+        <power-scaling-factor value="3"/>
+        <sharing-cutoff value="0.5"/>
+        <sharing-alpha value="1"/>
+        <selection-scheme value="Tournament"/>
+        <termination-function value="UponGeneration"/>
+        <replacement-scheme value="Worst"/>
+    </gaparameters>
+
+    <defaults>
+        <departpos value="10"/>
+    </defaults>
+
+    <time>
+        <begin value="54000"/>
+        <end value="55600"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <xml-validation value="auto"/>
+        <report-empty-detectors value="true"/>
+        <print-absolute-flows value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<pois>
+    <poi id="det_ew06to05_0" type="sink_detector_position" color="red" lane="ew06to05_0" pos="95.00"/>
+    <poi id="det_ew07to06_0" type="between_detector_position" color="blue" lane="ew07to06_0" pos="90.00"/>
+    <poi id="det_ew08to07_0" type="between_detector_position" color="blue" lane="ew08to07_0" pos="90.00"/>
+    <poi id="det_ew09to08_0" type="source_detector_position" color="green" lane="ew09to08_0" pos="95.00"/>
+    <poi id="det_ew12to11_0" type="sink_detector_position" color="red" lane="ew12to11_0" pos="95.00"/>
+    <poi id="det_ew13to12_0" type="between_detector_position" color="blue" lane="ew13to12_0" pos="90.00"/>
+    <poi id="det_ew14to13_0" type="between_detector_position" color="blue" lane="ew14to13_0" pos="90.00"/>
+    <poi id="det_ew15to14_0" type="source_detector_position" color="green" lane="ew15to14_0" pos="95.00"/>
+    <poi id="det_ew18to17_0" type="sink_detector_position" color="red" lane="ew18to17_0" pos="95.00"/>
+    <poi id="det_ew19to18_0" type="between_detector_position" color="blue" lane="ew19to18_0" pos="90.00"/>
+    <poi id="det_ew20to19_0" type="between_detector_position" color="blue" lane="ew20to19_0" pos="90.00"/>
+    <poi id="det_ew21to20_0" type="source_detector_position" color="green" lane="ew21to20_0" pos="95.00"/>
+    <poi id="det_ns01to06_0" type="source_detector_position" color="green" lane="ns01to06_0" pos="95.00"/>
+    <poi id="det_ns02to07_0" type="source_detector_position" color="green" lane="ns02to07_0" pos="95.00"/>
+    <poi id="det_ns03to08_0" type="source_detector_position" color="green" lane="ns03to08_0" pos="95.00"/>
+    <poi id="det_ns06to12_0" type="between_detector_position" color="blue" lane="ns06to12_0" pos="90.00"/>
+    <poi id="det_ns07to13_0" type="between_detector_position" color="blue" lane="ns07to13_0" pos="90.00"/>
+    <poi id="det_ns08to14_0" type="between_detector_position" color="blue" lane="ns08to14_0" pos="90.00"/>
+    <poi id="det_ns12to18_0" type="between_detector_position" color="blue" lane="ns12to18_0" pos="90.00"/>
+    <poi id="det_ns13to19_0" type="between_detector_position" color="blue" lane="ns13to19_0" pos="90.00"/>
+    <poi id="det_ns14to20_0" type="between_detector_position" color="blue" lane="ns14to20_0" pos="90.00"/>
+    <poi id="det_ns18to24_0" type="sink_detector_position" color="red" lane="ns18to24_0" pos="95.00"/>
+    <poi id="det_ns19to25_0" type="sink_detector_position" color="red" lane="ns19to25_0" pos="95.00"/>
+    <poi id="det_ns20to26_0" type="sink_detector_position" color="red" lane="ns20to26_0" pos="95.00"/>
+    <poi id="det_sn06to01_0" type="sink_detector_position" color="red" lane="sn06to01_0" pos="95.00"/>
+    <poi id="det_sn07to02_0" type="sink_detector_position" color="red" lane="sn07to02_0" pos="95.00"/>
+    <poi id="det_sn08to03_0" type="sink_detector_position" color="red" lane="sn08to03_0" pos="95.00"/>
+    <poi id="det_sn12to06_0" type="between_detector_position" color="blue" lane="sn12to06_0" pos="90.00"/>
+    <poi id="det_sn13to07_0" type="between_detector_position" color="blue" lane="sn13to07_0" pos="90.00"/>
+    <poi id="det_sn14to08_0" type="between_detector_position" color="blue" lane="sn14to08_0" pos="90.00"/>
+    <poi id="det_sn18to12_0" type="between_detector_position" color="blue" lane="sn18to12_0" pos="90.00"/>
+    <poi id="det_sn19to13_0" type="between_detector_position" color="blue" lane="sn19to13_0" pos="90.00"/>
+    <poi id="det_sn20to14_0" type="between_detector_position" color="blue" lane="sn20to14_0" pos="90.00"/>
+    <poi id="det_sn24to18_0" type="source_detector_position" color="green" lane="sn24to18_0" pos="95.00"/>
+    <poi id="det_sn25to19_0" type="source_detector_position" color="green" lane="sn25to19_0" pos="95.00"/>
+    <poi id="det_sn26to20_0" type="source_detector_position" color="green" lane="sn26to20_0" pos="95.00"/>
+    <poi id="det_we05to06_0" type="source_detector_position" color="green" lane="we05to06_0" pos="95.00"/>
+    <poi id="det_we06to07_0" type="between_detector_position" color="blue" lane="we06to07_0" pos="90.00"/>
+    <poi id="det_we07to08_0" type="between_detector_position" color="blue" lane="we07to08_0" pos="90.00"/>
+    <poi id="det_we08to09_0" type="sink_detector_position" color="red" lane="we08to09_0" pos="95.00"/>
+    <poi id="det_we11to12_0" type="source_detector_position" color="green" lane="we11to12_0" pos="95.00"/>
+    <poi id="det_we12to13_0" type="between_detector_position" color="blue" lane="we12to13_0" pos="90.00"/>
+    <poi id="det_we13to14_0" type="between_detector_position" color="blue" lane="we13to14_0" pos="90.00"/>
+    <poi id="det_we14to15_0" type="sink_detector_position" color="red" lane="we14to15_0" pos="95.00"/>
+    <poi id="det_we17to18_0" type="source_detector_position" color="green" lane="we17to18_0" pos="95.00"/>
+    <poi id="det_we18to19_0" type="between_detector_position" color="blue" lane="we18to19_0" pos="90.00"/>
+    <poi id="det_we19to20_0" type="between_detector_position" color="blue" lane="we19to20_0" pos="90.00"/>
+    <poi id="det_we20to21_0" type="sink_detector_position" color="red" lane="we20to21_0" pos="95.00"/>
+</pois>

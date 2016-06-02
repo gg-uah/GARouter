@@ -1,0 +1,16 @@
+<detectors>
+	<detectorDefinition id="det_02to04_0" lane="02to04_0" pos="47.66"/>
+	<detectorDefinition id="det_03to04_0" lane="03to04_0" pos="67.69"/>
+	<detectorDefinition id="det_04to01_0" lane="04to01_0" pos="67.69"/>
+	<detectorDefinition id="det_04to02_0" lane="04to02_0" pos="47.66"/>
+	<detectorDefinition id="det_04to09_0" lane="04to09_0" pos="97.155"/>
+	<detectorDefinition id="det_05to07_0" lane="05to07_0" pos="47.66"/>
+	<detectorDefinition id="det_05to08_0" lane="05to08_0" pos="67.69"/>
+	<detectorDefinition id="det_05to11_0" lane="05to11_0" pos="97.155"/>
+	<detectorDefinition id="det_06to05_0" lane="06to05_0" pos="67.69"/>
+	<detectorDefinition id="det_07to05_0" lane="07to05_0" pos="47.66"/>
+	<detectorDefinition id="det_09to05_0" lane="09to05_0" pos="46.235"/>
+	<detectorDefinition id="det_09to10_0" lane="09to10_0" pos="67.69"/>
+	<detectorDefinition id="det_11to04_0" lane="11to04_0" pos="46.235"/>
+	<detectorDefinition id="det_11to12_0" lane="11to12_0" pos="67.69"/>
+</detectors>

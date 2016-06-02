@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="../data/__eixample.net.xml"/>
+        <detector-files value="../data/__detectors.det.xml"/>
+        <measure-files value="../data/__detector_flows.dat"/>
+    </input>
+
+    <output>
+        <routes-output value="../data/__dfroutes.rou.xml"/>
+        <emitters-output value="../data/__emitters.add.xml"/>
+        <routes-for-all value="true"/>
+        <detector-output value= "../data/__detectors.out.xml"/>
+        <detectors-poi-output value="../data/__detectors.poi.xml"/>
+        <emitters-poi-output value="../data/__emitters.poi.xml"/>
+        <max-search-depth value="5"/>
+        <validation-output value="__validation.out.xml"/>
+        <validation-output.add-sources value="true"/>
+    </output>
+
+    <defaults>
+        <departpos value="10"/>
+    </defaults>
+
+    <processing>
+        <keep-longer-routes value="true"/>
+        <include-unused-routes value="true"/>
+    </processing>
+
+    <time>
+        <begin value = "54000"/>
+        <end value="54700"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <xml-validation value="auto"/>
+        <print-absolute-flows value="true"/>
+        <report-empty-detectors value="true"/>
+    </report>
+
+</configuration>

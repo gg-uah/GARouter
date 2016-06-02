@@ -1,0 +1,15 @@
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="02to04" to="04to09"/>
+    <connection from="03to04" to="04to09"/>
+    <connection from="04to09" to="09to10"/>
+    <connection from="04to09" to="09to05"/>
+    <connection from="09to05" to="05to07"/>
+    <connection from="09to05" to="05to08"/>
+
+    <connection from="06to05" to="05to11"/>
+    <connection from="07to05" to="05to11"/>
+    <connection from="05to11" to="11to12"/>
+    <connection from="05to11" to="11to04"/>
+    <connection from="11to04" to="04to01"/>
+    <connection from="11to04" to="04to02"/>
+</connections>

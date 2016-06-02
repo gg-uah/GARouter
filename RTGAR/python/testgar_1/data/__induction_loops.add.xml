@@ -1,0 +1,11 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<inductionLoop id="loop_01to02_0" lane="01to02_0" pos="47.625" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_02to03_0" lane="02to03_0" pos="195.25" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_02to05_0" lane="02to05_0" pos="47.65" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_02to06_0" lane="02to06_0" pos="47.65" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_03to04_0" lane="03to04_0" pos="47.625" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_05to07_0" lane="05to07_0" pos="196.75" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_06to08_0" lane="06to08_0" pos="200.05" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_07to03_0" lane="07to03_0" pos="47.65" freq="10" file="__gar_loop_measurements.xml"/>
+	<inductionLoop id="loop_08to03_0" lane="08to03_0" pos="47.65" freq="10" file="__gar_loop_measurements.xml"/>
+</additional>

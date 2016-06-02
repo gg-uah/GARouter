@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 22 18:26:29 2015 by SUMO od2trips Version 0.22.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__case_3.nettaz.xml"/>
+        <od-matrix-files value="/Users/ctomas/RTGAR/python/testgar/src/../data/__od-matrix.dat"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/ctomas/RTGAR/python/testgar/src/../data/__trips.trip.xml"/>
+    </output>
+
+    <time>
+        <begin value="54000"/>
+        <end value="55800"/>
+    </time>
+
+    <processing>
+        <spread.uniform value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="54009.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="100" depart="54009.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="1" depart="54027.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="101" depart="54027.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="102" depart="54045.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="2" depart="54045.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="103" depart="54063.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="3" depart="54063.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="104" depart="54081.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="4" depart="54081.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="105" depart="54099.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="5" depart="54099.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="106" depart="54117.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="6" depart="54117.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="107" depart="54135.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="7" depart="54135.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="108" depart="54153.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="8" depart="54153.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="109" depart="54171.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="9" depart="54171.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="10" depart="54189.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="110" depart="54189.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="11" depart="54207.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="111" depart="54207.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="112" depart="54225.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="12" depart="54225.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="113" depart="54243.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="13" depart="54243.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="114" depart="54261.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="14" depart="54261.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="115" depart="54279.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="15" depart="54279.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="116" depart="54297.00" from="06to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="16" depart="54297.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="117" depart="54315.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="17" depart="54315.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="118" depart="54333.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="18" depart="54333.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="119" depart="54351.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="19" depart="54351.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="120" depart="54369.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="20" depart="54369.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="121" depart="54387.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="21" depart="54387.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="122" depart="54405.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="22" depart="54405.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="123" depart="54423.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="23" depart="54423.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="124" depart="54441.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="24" depart="54441.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="125" depart="54459.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="25" depart="54459.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="126" depart="54477.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="26" depart="54477.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="127" depart="54495.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="27" depart="54495.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="128" depart="54513.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="28" depart="54513.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="129" depart="54531.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="29" depart="54531.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="130" depart="54549.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="30" depart="54549.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="131" depart="54567.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="31" depart="54567.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="132" depart="54585.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="32" depart="54585.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="133" depart="54603.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="33" depart="54603.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="134" depart="54621.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="34" depart="54621.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="135" depart="54639.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="35" depart="54639.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="136" depart="54657.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="36" depart="54657.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="137" depart="54675.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="37" depart="54675.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="138" depart="54693.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="38" depart="54693.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="139" depart="54711.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="39" depart="54711.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="140" depart="54729.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="40" depart="54729.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="141" depart="54747.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="41" depart="54747.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="142" depart="54765.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="42" depart="54765.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="143" depart="54783.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="43" depart="54783.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="144" depart="54801.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="44" depart="54801.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="145" depart="54819.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="45" depart="54819.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="146" depart="54837.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="46" depart="54837.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="147" depart="54855.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="47" depart="54855.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="148" depart="54873.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="48" depart="54873.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="149" depart="54891.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="49" depart="54891.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="150" depart="54909.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="50" depart="54909.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="151" depart="54927.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="51" depart="54927.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="152" depart="54945.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="52" depart="54945.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="153" depart="54963.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="53" depart="54963.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="154" depart="54981.00" from="06to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="54" depart="54981.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="155" depart="54999.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="55" depart="54999.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="156" depart="55017.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="56" depart="55017.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="157" depart="55035.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="57" depart="55035.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="158" depart="55053.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="58" depart="55053.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="159" depart="55071.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="59" depart="55071.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="160" depart="55089.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="60" depart="55089.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="161" depart="55107.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="61" depart="55107.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="162" depart="55125.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="62" depart="55125.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="163" depart="55143.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="63" depart="55143.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="164" depart="55161.00" from="06to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="64" depart="55161.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="165" depart="55179.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="65" depart="55179.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="166" depart="55197.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="66" depart="55197.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="167" depart="55215.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="67" depart="55215.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="168" depart="55233.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="68" depart="55233.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="169" depart="55251.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="69" depart="55251.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="170" depart="55269.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="70" depart="55269.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="171" depart="55287.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="71" depart="55287.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="172" depart="55305.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="72" depart="55305.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="173" depart="55323.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="73" depart="55323.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="174" depart="55341.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="74" depart="55341.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="175" depart="55359.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="75" depart="55359.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="176" depart="55377.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="76" depart="55377.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="177" depart="55395.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="77" depart="55395.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="178" depart="55413.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="78" depart="55413.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="179" depart="55431.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="79" depart="55431.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="180" depart="55449.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="80" depart="55449.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="181" depart="55467.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="81" depart="55467.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="182" depart="55485.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="82" depart="55485.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="183" depart="55503.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="83" depart="55503.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="184" depart="55521.00" from="07to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="84" depart="55521.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="185" depart="55539.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="85" depart="55539.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="186" depart="55557.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="86" depart="55557.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="187" depart="55575.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="87" depart="55575.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="188" depart="55593.00" from="06to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="88" depart="55593.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="189" depart="55611.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="89" depart="55611.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="190" depart="55629.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="90" depart="55629.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="191" depart="55647.00" from="06to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="91" depart="55647.00" from="02to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="192" depart="55665.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="92" depart="55665.00" from="02to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="193" depart="55683.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="93" depart="55683.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="194" depart="55701.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="94" depart="55701.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="195" depart="55719.00" from="06to05" to="04to02" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="95" depart="55719.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="196" depart="55737.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="96" depart="55737.00" from="03to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="197" depart="55755.00" from="07to05" to="04to01" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="97" depart="55755.00" from="03to04" to="05to07" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="198" depart="55773.00" from="06to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="98" depart="55773.00" from="02to04" to="05to08" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+    <trip id="199" depart="55791.00" from="07to05" to="11to12" type="pass" fromTaz="TAZ2" toTaz="TAZ1" departLane="free" departSpeed="max"/>
+    <trip id="99" depart="55791.00" from="03to04" to="09to10" type="pass" fromTaz="TAZ1" toTaz="TAZ2" departLane="free" departSpeed="max"/>
+</routes>

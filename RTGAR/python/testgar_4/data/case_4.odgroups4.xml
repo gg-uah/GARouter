@@ -1,0 +1,17 @@
+<odgroups>
+	<odgroup id="group1">
+		<taz id="TAZ1"/>
+	</odgroup>
+
+	<odgroup id="group2">
+		<taz id="TAZ2"/>
+	</odgroup>
+	
+	<odgroup id="group3">
+		<taz id="TAZ3"/>
+	</odgroup>
+
+	<odgroup id="group4">
+		<taz id="TAZ4"/>
+	</odgroup>
+</odgroups>
